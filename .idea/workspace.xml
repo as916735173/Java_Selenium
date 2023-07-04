@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e92ca70-4f01-40e2-a3e0-b144fda5c67e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ElementLocate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ElementOperate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/FirstWebTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="8e92ca70-4f01-40e2-a3e0-b144fda5c67e" name="更改" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +50,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test" />
     </key>
   </component>
   <component name="RunManager" selected="应用程序.ElementOperate">
@@ -135,8 +127,20 @@
       <updated>1687337467292</updated>
       <workItem from="1687337468494" duration="349000" />
       <workItem from="1687337832769" duration="3176000" />
-      <workItem from="1687451714812" duration="11836000" />
+      <workItem from="1687451714812" duration="12153000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1688460147814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688460147814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
