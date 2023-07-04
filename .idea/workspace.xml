@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e92ca70-4f01-40e2-a3e0-b144fda5c67e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ElementLocate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ElementOperate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/FirstWebTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="8e92ca70-4f01-40e2-a3e0-b144fda5c67e" name="更改" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ElementLocate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ElementLocate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ElementOperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ElementOperate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/admin/IdeaProjects/Java_Selenium/src&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/admin/IdeaProjects/Java_Selenium/src",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -62,8 +59,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.ElementOperate">
+  <component name="RunManager" selected="应用程序.ElementLocate">
     <configuration name="ElementLocate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.ElementLocate" />
       <module name="Java_Selenium" />
@@ -118,10 +118,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.FirstWebTest" />
         <item itemvalue="应用程序.ElementOperate" />
         <item itemvalue="应用程序.ElementLocate" />
-        <item itemvalue="应用程序.FirstWebTest" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,8 +135,35 @@
       <updated>1687337467292</updated>
       <workItem from="1687337468494" duration="349000" />
       <workItem from="1687337832769" duration="3176000" />
-      <workItem from="1687451714812" duration="11836000" />
+      <workItem from="1687451714812" duration="14336000" />
+      <workItem from="1688521580672" duration="395000" />
+      <workItem from="1688521990401" duration="34000" />
+      <workItem from="1688522038671" duration="921000" />
+      <workItem from="1688528541135" duration="373000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1688460147814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688460147814</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1688460276927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688460276927</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

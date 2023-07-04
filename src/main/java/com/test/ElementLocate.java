@@ -6,21 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ElementLocate {
-    private static ChromeDriver chromeDriver;
+    //将WebDriver作用于chromeDriver
+    private static WebDriver chromeDriver;
     public static void main(String[] args)throws Exception{
         openChrome();
-
-    }
-    public static void openChrome()throws Exception{
-
-        System.setProperty("web-driver.chrome.driver", "/Users/admin/IdeaProjects/Java_Selenium/src/chromedriver");
-        //1.打开chrome浏览器
-        WebDriver chromeDriver = new ChromeDriver();
-        //2.访问https://www.baidu.com
-        chromeDriver.get("https://www.baidu.com");
-        //关闭并退出浏览器
-//        Thread.sleep(3000);
-//        chromeDriver.quit ();
         //根据id定位到百度搜索框，并输入数据--唯一的
         //chromeDriver.findElement(By.id("kw")).sendKeys("test");
         //根据name定位到百度搜索框，并输入数据--重复的
@@ -51,6 +40,17 @@ public class ElementLocate {
         //xpath元素定位
         //chromeDriver.findElement(By.xpath("//input[@maxlength = '255' and @autocomplete = 'off']")).sendKeys("test");
         chromeDriver.findElement(By.xpath("//a[contains(text(),'hao123')]")).click();
+    }
+    public static void openChrome()throws Exception{
+
+        System.setProperty("web-driver.chrome.driver", "/Users/admin/IdeaProjects/Java_Selenium/src/chromedriver");
+        //1.打开chrome浏览器
+        chromeDriver = new ChromeDriver();
+        //2.访问https://www.baidu.com
+        chromeDriver.get("https://www.baidu.com");
+        //关闭并退出浏览器
+//        Thread.sleep(3000);
+//        chromeDriver.quit ();
     }
     public static void setChromeDriver(ChromeDriver chromeDriver) {
         ElementLocate.chromeDriver = chromeDriver;
