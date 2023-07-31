@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e92ca70-4f01-40e2-a3e0-b144fda5c67e" name="更改" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ElementWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/SpecilElementLocate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/SpecilElementLocate_date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/SpecilElementLocate_mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/SpecilElementLocate_upload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/WebDriverOperate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ElementLocate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ElementLocate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ElementOperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ElementOperate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,10 +51,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/admin/IdeaProjects/Java_Selenium/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,9 +73,9 @@
       <recent name="com.test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ElementLocate">
-    <configuration name="ElementLocate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.ElementLocate" />
+  <component name="RunManager" selected="应用程序.SpecilElementLocate_upload">
+    <configuration name="ElementWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.ElementWait" />
       <module name="Java_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementOperate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.ElementOperate" />
+    <configuration name="SpecilElementLocate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.SpecilElementLocate" />
       <module name="Java_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstWebTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.FirstWebTest" />
+    <configuration name="SpecilElementLocate_date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.SpecilElementLocate_date" />
       <module name="Java_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="SpecilElementLocate_mouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.SpecilElementLocate_mouse" />
       <module name="Java_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecilElementLocate_upload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.SpecilElementLocate_upload" />
+      <module name="Java_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,10 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.FirstWebTest" />
-        <item itemvalue="应用程序.ElementOperate" />
-        <item itemvalue="应用程序.ElementLocate" />
+        <item itemvalue="应用程序.SpecilElementLocate_upload" />
+        <item itemvalue="应用程序.SpecilElementLocate_mouse" />
+        <item itemvalue="应用程序.SpecilElementLocate_date" />
+        <item itemvalue="应用程序.SpecilElementLocate" />
+        <item itemvalue="应用程序.ElementWait" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +164,10 @@
       <workItem from="1688521990401" duration="34000" />
       <workItem from="1688522038671" duration="921000" />
       <workItem from="1688528541135" duration="373000" />
+      <workItem from="1688541415494" duration="5536000" />
+      <workItem from="1689321805738" duration="649000" />
+      <workItem from="1690248219893" duration="44000" />
+      <workItem from="1690251291787" duration="30603000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1688460147814</created>
@@ -155,8 +183,41 @@
       <option name="project" value="LOCAL" />
       <updated>1688460276927</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1688541452091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688541452091</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
